@@ -1,10 +1,10 @@
 import pandas as pd
 
 # Ruta del archivo XLSX
-xlsx_file_path = 'C:/Users/fernando.samaniego/OneDrive - americana.edu.py/Documentos/XLSX a CSV/CRM-Dataverse.xlsx'
+xlsx_file_path = 'ruta.xlsx'
 
 # Ruta donde quieres guardar el archivo CSV
-csv_output_path = 'C:/Users/fernando.samaniego/OneDrive - americana.edu.py/Documentos/XLSX a CSV/CRM-Dataverse.csv'
+csv_output_path = 'ruta.csv'
 
 # Leer el archivo XLSX
 df = pd.read_excel(xlsx_file_path)
